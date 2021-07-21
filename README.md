@@ -1,2 +1,3 @@
-# DIO_JavaScript_Basico
-Introdução ao JavaScript através do curso inicial de JS da plataforma DIO
+# Programação para internet com JavaScript
+
+## Introdução ao JavaScript através do curso inicial de JS da plataforma DIO
