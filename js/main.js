@@ -1,3 +1,33 @@
+
+function clicar(){
+    document.getElementById("agradecimento").innerHTML = "<b>Parabéns, você criou um botão funcionável</b>";
+    //alert("Parabéns, você clicou no botão!");
+}
+
+function redirecionar(){
+    window.open("https://www.cursoemvideo.com"); //Abre em uma nova janela
+    //window.location.href = "https://www.cursoemvideo.com"; - Abre na mesma janela
+}
+
+function alterar(elemento){
+    //document.getElementById("mouseon").innerHTML = "Parabéns, você criou uma função de troca de texto ao passar o mouse em cima";
+    elemento.innerHTML = "Parabéns, você criou uma função de troca de texto ao passar o mouse em cima";
+}
+
+function voltar(elemento){
+    //document.getElementById("mouseon").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("A página foi carregada!");
+}
+
+function change(elemento){
+    console.log(elemento.value);
+}
+
+/*
 function soma(n1, n2) {
     return n1 + n2;
 }
@@ -14,6 +44,7 @@ function validaIdade(idade){
 
 var idade = prompt("Qual a sua idade?");
 console.log(validaIdade(idade));
+*/
 
 //alert(soma(5, 10));
 
